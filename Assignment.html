@@ -9,12 +9,8 @@
 
     <fieldset>
         <legend><h1>Student Information Form</h1></legend>
-        
-        <label for="Name of the Student"><b>Name</b></label>
-        <input type="name" required placeholder="your answer" id="name" name="name">
-        <br> <br>
 
-        <label for="sal"><b>Salutation</b></label>
+         <label for="sal"><b>Salutation</b></label>
             <br><br>
          <select name="Sal" id="sal">
             <option value="--None--"><b>--None--</b></option> 
@@ -22,12 +18,16 @@
              <option value="Ms."><b>Ms.</b></option>
              <option value="Dr."><b>Dr.</b></option> 
          </select>
-            <br><br>
+        <label for="Name of the Student"><b>Name</b></label>
+        &nbsp; &nbsp; &nbsp;
+        <input type="name" required placeholder="your answer" id="name" name="name">
+        <br> <br>
         
         <label for="USN"><b>usn</b></label>
+        
         <input type="usn" required placeholder="your answer" id="usn" name="usn">
         <br> <br>
-
+         &nbsp; &nbsp; &nbsp;
         <label for="Contact"><b>Contact</b></label>
         <input type="text" required placeholder="your answer" id="contact" pattern="[6-9][0-9]{9}">
         <br> <br>
@@ -38,10 +38,12 @@
              <br> <br>
 
         <label for="Department"><b>Department</b></label>
+        &nbsp; &nbsp; &nbsp;
         <input type="Department" required placeholder="your answer" id="dpt" name="dpt">
         <br> <br>
 
         <label for="Semester"><b>Semester</b></label>
+        &nbsp; &nbsp; &nbsp;
         <input type="sem" required placeholder="your answer" id="sem" name="sem" pattern="[1-8]">
         <br> <br>
     </fieldset>
